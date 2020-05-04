@@ -36,7 +36,7 @@ public class AppTest
         try {
             assertEquals("Hello from My World!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
-            fail("\"message\" is not \"Hello from My World!\"");
+            fail("\"message\" is not \"Hello from THIS World!\"");
         }
     }
 
